@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Pressa</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./bootstrep/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    <header class="bg-primary">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+                <a class="navbar-brand text-light" href="#">Pressa</a>
+                <form class="d-flex " role="search">
+                    <input class="form-control me-2" type="search" placeholder="izlash" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><img src="./images/icons/search.svg" alt=""></button>
+                </form>
+                <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close btn-close-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 ms-3">
+                            <li class="nav-item ">
+                                <a class="nav-link " aria-current="page" href="#">Savol va javoblar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Biz haqimizda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1 class="h1 text-light">Eng so’ngi master klasslar va tadbirlar bizning saytda</h1>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="search-box row gx-5">
+                <div class="col-2 ms-3">
+                    <div class="dropdown">
+                    </div>
+                </div>
+                <div class="col-2 ms-3">
+                    <div class="dropdown">
+                        <button class="btn btn-light btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./images/icons/colendar.svg" alt="colendar"><span class="ms-2 ">22 / 02 / 2022</span>
+                    </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2 ms-3">
+                    <div class="dropdown">
+                        <button class="btn btn-light btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./images/icons/colendar.svg" alt="colendar"><span class="ms-2 ">22 / 02 / 2022</span>
+                    </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2 ms-3">
+                    <div class="dropdown">
+                        <button class="btn btn-light btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./images/icons/colendar.svg" alt="colendar"><span class="ms-2 ">22 / 02 / 2022</span>
+                    </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2 ms-3 ">
+                    <div class="dropdown">
+                        <button class="btn btn-light btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="./images/icons/colendar.svg" alt="colendar"><span class="ms-2 ">22 / 02 / 2022</span>
+                    </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">Action</button></li>
+                            <li><button class="dropdown-item" type="button">Another action</button></li>
+                            <li><button class="dropdown-item" type="button">Something else here</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </header>
+    <section class="elonlar">
+        <div class="container">
+            <h2 class="h4">Oxirgi e’lonlar</h2>
+            <div class="row">
+                <div class=" col-lg-4 col-sm-12 ">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Alisher-Isaev.jpg" class="card-img-top" alt="Alisher-Isaev">
+                        <div class="card-body ">
+                            <h5 class="card-title">Alisher Isaevdan biznes va IT bo’yicha master klass</h5>
+                            <div class="card__menu-box ">
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/person.svg" alt="person"> Alisher Isaev
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/online.svg" alt="online"> Online
+                                    </li>
+                                </ul>
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/graph.svg" alt="graph"> Tadbirkor
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-none d-lg-block col-lg-4 col-sm-12">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Jahongir-Gulomov.jpg" alt="Jahongir-Gulomov">
+                        <h5 class="card-title">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</h5>
+                        <div class="card__menu-box">
+                            <ul class="card__menu">
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/person.svg" alt="person"> Alisher Isaev
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/status-offline.svg" alt="status-offline"> Offline
+                                </li>
+                            </ul>
+                            <ul class="card__menu">
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/Vector.svg" alt="graph"> Grafik dizayner
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-none d-lg-block col-lg-4 col-sm-12">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Yuksalish-loyhasi.jpg" class="card-img-top" alt="Yuksalish-loyhasi">
+                        <div class="card-body ">
+                            <h5 class="card-title">Yuksalish loyihasi AQSHda ovozli suhbat</h5>
+                            <div class="card__menu-box">
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/person.svg" alt="person"> MuhammadAli Eshonqulov
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/online.svg" alt="online"> Online
+                                    </li>
+                                </ul>
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/graph.svg" alt="graph"> Biznesmen
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-none d-lg-block col-lg-4 col-sm-12">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Sadoqat-Kaziyeva.jpg" class="card-img-top" alt="Sadoqat-Kaziyeva">
+                        <div class="card-body ">
+                            <h5 class="card-title">Sadoqat Kaziyevadan UI/UX bo’yicha master klass</h5>
+                            <div class="card__menu-box">
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/person.svg" alt="person"> Sadoqat Kaziyeva
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/status-offline.svg" alt="status-offline"> Offline
+                                    </li>
+                                </ul>
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/device-mobile.svg" alt="device-mobile"> UI/UX designer
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-sm-12">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Alisher-Isaev.jpg" class="card-img-top" alt="Alisher-Isaev">
+                        <div class="card-body ">
+                            <h5 class="card-title">Alisher Isaevdan biznes va IT bo’yicha master klass</h5>
+                            <div class="card__menu-box ">
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/person.svg" alt="person"> Alisher Isaev
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/online.svg" alt="online"> Online
+                                    </li>
+                                </ul>
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/graph.svg" alt="graph"> Tadbirkor
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-none d-lg-block col-lg-4 col-sm-12">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Jahongir-Gulomov.jpg" alt="Jahongir-Gulomov">
+                        <h5 class="card-title">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</h5>
+                        <div class="card__menu-box">
+                            <ul class="card__menu">
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/person.svg" alt="person"> Alisher Isaev
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/status-offline.svg" alt="status-offline"> Offline
+                                </li>
+                            </ul>
+                            <ul class="card__menu">
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/Vector.svg" alt="graph"> Grafik dizayner
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-sm-12">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Alisher-Isaev.jpg" class="card-img-top" alt="Alisher-Isaev">
+                        <div class="card-body ">
+                            <h5 class="card-title">Alisher Isaevdan biznes va IT bo’yicha master klass</h5>
+                            <div class="card__menu-box ">
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/person.svg" alt="person"> Alisher Isaev
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/online.svg" alt="online"> Online
+                                    </li>
+                                </ul>
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/graph.svg" alt="graph"> Tadbirkor
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-none d-lg-block col-lg-4 col-sm-12">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Jahongir-Gulomov.jpg" alt="Jahongir-Gulomov">
+                        <h5 class="card-title">Jahongir G’ulamovdan dizayn sohasi bo’yicha master klass</h5>
+                        <div class="card__menu-box">
+                            <ul class="card__menu">
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/person.svg" alt="person"> Alisher Isaev
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/status-offline.svg" alt="status-offline"> Offline
+                                </li>
+                            </ul>
+                            <ul class="card__menu">
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/Vector.svg" alt="graph"> Grafik dizayner
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                </li>
+                                <li class="card__menu__item">
+                                    <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-sm-none d-lg-block col-lg-4 col-sm-12">
+                    <div class="card mt-5 mx-auto">
+                        <img src="./images/Yuksalish-loyhasi.jpg" class="card-img-top" alt="Yuksalish-loyhasi">
+                        <div class="card-body ">
+                            <h5 class="card-title">Yuksalish loyihasi AQSHda ovozli suhbat</h5>
+                            <div class="card__menu-box">
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/person.svg" alt="person"> MuhammadAli Eshonqulov
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/colendar.svg" alt="colendar"> 17 / 01 / 2022
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/online.svg" alt="online"> Online
+                                    </li>
+                                </ul>
+                                <ul class="card__menu">
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/graph.svg" alt="graph"> Biznesmen
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/clock.svg" alt="clock"> 15:00
+                                    </li>
+                                    <li class="card__menu__item">
+                                        <img src="./images/icons/eye.svg" alt="eye"> 2550
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary d-block mx-auto mt-5">Ko’proq ko’rish</button>
+        </div>
+        </div>
+    </section>
+    <script src="./bootstrep/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

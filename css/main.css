@@ -1,0 +1,83 @@
+body {
+    overflow-x: hidden;
+}
+
+header {
+    position: relative;
+    padding: 21px 0 141px 0;
+}
+
+.offcanvas-header {
+    justify-content: end;
+}
+
+.h1 {
+    text-align: center;
+    max-width: 940px;
+    font-size: 64px;
+    line-height: 79px;
+}
+
+.menu__item-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #262D33;
+}
+
+.grid__menu {
+    list-style: none;
+    display: grid;
+}
+
+.elonlar {
+    padding: 202px 0 206px 0;
+}
+
+.card {
+    max-width: 407px;
+    min-height: 577px;
+}
+
+.card__menu-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card__menu {
+    list-style: none;
+    padding: 0;
+}
+
+.card__menu__item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: 20px;
+}
+
+@media (min-width:992.1px) {
+    .offcanvas.offcanvas-end {
+        max-width: 265px;
+    }
+    .nav-link {
+        color: #FFFFFF;
+    }
+}
+
+@media (max-width:992px) {
+    .offcanvas.offcanvas-end {
+        max-width: 215px;
+    }
+    .nav-link {
+        color: black;
+    }
+}
