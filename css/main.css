@@ -11,11 +11,17 @@ header {
     justify-content: end;
 }
 
-.h1 {
+h1 {
     text-align: center;
-    max-width: 940px;
+    width: 100%;
     font-size: 64px;
     line-height: 79px;
+}
+
+.hero__table {
+    position: absolute;
+    bottom: -45px;
+    right: 400px;
 }
 
 .menu__item-link {
@@ -35,7 +41,7 @@ header {
 }
 
 .elonlar {
-    padding: 202px 0 206px 0;
+    padding: 202px 0 0 0;
 }
 
 .card {
@@ -64,6 +70,93 @@ header {
     margin-top: 20px;
 }
 
+.information {
+    margin-top: 100px;
+}
+
+.card__box {
+    display: flex;
+    justify-content: center;
+}
+
+.card__block {
+    width: 75%;
+    background-color: #055BD3;
+    position: relative;
+    padding: 70px 286px 81px 30px;
+}
+
+.card__block__title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 50px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.card__block__img,
+.card__block__img2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+footer {
+    margin-top: 130px;
+    padding: 40px 0 33px 0;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 77px;
+    padding: 0;
+}
+
+.footer__menu__item-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer__right {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__right__tel__icon {
+    text-decoration: none;
+}
+
+.footer__right__icons {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.footer__right__icons img {
+    width: 20px;
+    height: 20px;
+}
+
+@media (max-width:1400px) {
+    .card__box:nth-child(2) {
+        margin-top: 150px;
+    }
+}
+
 @media (min-width:992.1px) {
     .offcanvas.offcanvas-end {
         max-width: 265px;
@@ -79,5 +172,32 @@ header {
     }
     .nav-link {
         color: black;
+    }
+    .card__block {
+        width: 100%;
+    }
+    .card__box:nth-child(2) {
+        margin-top: 200px;
+    }
+    .card__box:nth-child(2) .card__block {
+        padding: 20px 0 73px 0;
+        display: flex;
+        justify-content: end;
+    }
+    .card__block__title {
+        max-width: 309px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .card__block__img2 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer__right {
+        width: 100%;
     }
 }
